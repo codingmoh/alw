@@ -51,13 +51,13 @@ Tableau is a data analytics and visualization tool used widely in the industry t
 
 The main products offered by tableau are:
 
-<center>![](assets/1_rdkivl.webp)</center>
+![](assets/1_rdkivl.webp)
 
 ### **Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
 
-<center>![](assets/2_sh3myr.webp)</center>
+![](assets/2_sh3myr.webp)
 
-<center>![](assets/3_qe3dfe.webp)</center>
+![](assets/3_qe3dfe.webp)
 
 # <a name="getting-started"></a>2.Getting Started
 
@@ -67,7 +67,7 @@ In this section, we will learn some basic operations in Tableau to get accustome
 
 The Tableau workspace is a collection of worksheets, menu bar, toolbar, marks card, shelves and a lot of other elements about which we will learn in sections to come. Sheets can be worksheets, dashboards, or stories. The image below highlights the major components of the workspace. However, more familiarity will be achieved once we work with actual data.
 
-<center>![](assets/4_b8jdpp.webp) source:Tableau.com</center>
+![](assets/4_b8jdpp.webp) source:Tableau.com
 
 ## Connecting to a Data Source
 
@@ -77,7 +77,7 @@ The launch screen of Tableau Desktop shows the available data sources that one c
 
 ### `Hands On`
 
-<center>![](assets/5_ubfft7.webp)</center>
+![](assets/5_ubfft7.webp)
 
 #### Connecting to the [Sample-Superstore data set](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/Data%20Visualisation%20with%20Tableau/Sample-Superstore%20.xls)
 
@@ -93,7 +93,7 @@ We shall be working with a sample data set names **Superstore dataset**, that co
 
 ### `Hands On`
 
-<center>![](assets/6_f1ydxm.webp)</center>
+![](assets/6_f1ydxm.webp)
 
 ## Creating a View
 
@@ -117,7 +117,7 @@ Tableau automatically sorts the fields in Measures and Dimensions. However, for 
 
 1.  Go to the worksheet. Click on the tab `Sheet 1` at the bottom left of the tableau workspace.
 
-    <center>![](assets/7_jgylqq.webp)</center>
+    ![](assets/7_jgylqq.webp)
 
 2.  Once, you are in the worksheet, from `Dimensions` under the Data pane, drag the `Order Date` to the Column shelf.
 
@@ -129,7 +129,7 @@ _Tableau populates a chart with sales aggregated as a sum. Total aggregated sale
 
 ### `Hands On`
 
-<center>![](assets/8_skzimx.webp)</center>
+![](assets/8_skzimx.webp)
 
 #### _What does the line chart above convey? Well, it shows that the sales look quite promising and appear to be increasing with time. This is a valuable insight, but it hardly says much about the products which are contributing to increased Sales. Let us delve further to get more insights._
 
@@ -145,15 +145,15 @@ Let us delve deeper and try to find out more insights regarding which products d
 
     To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2016:
 
-    <center>![](assets/9_n0mjak.webp)</center>
+    ![](assets/9_n0mjak.webp)
 
     To add labels to the view, click `Show Mark Labels` on the toolbar.
 
-    <center>![](assets/10_h6tfyy.webp)</center>
+    ![](assets/10_h6tfyy.webp)
 
     The bar chart can be displayed horizontally instead of vertically too. Click `Swap` on the toolbar for the same.  
 
-    <center>![](assets/tableau_11.webp)</center>
+    ![](assets/tableau_11.webp)
 
  2\. The view above nicely shows `sales` by `category`, i.e., furniture, office supplies, and technology. We can also infer that furniture sales are growing faster than sales of office supplies except for 2016\. Hence it will be wise to focus sales efforts on furniture instead of office supplies. But furniture is a vast category and consists of many different items. How can we identify which furniture item is contributing towards maximum sales?
 
@@ -163,7 +163,7 @@ The sub-category is another discrete field. It further dissects the `Category` a
 
 ### `Hands On`
 
-<center>![](assets/12_gbblmw.webp)</center>
+![](assets/12_gbblmw.webp)
 
 # <a name="emphasise-the-results"></a>3.Emphasizing the Results
 
@@ -177,7 +177,7 @@ Filters can be used to include or exclude values in the view. Here we try to add
 
 In the Data pane, under Dimensions, right-click Order Date and select Show Filter.Repeat for Sub->category field also.
 
-<center>![](assets/13_vb657b.webp)</center>
+![](assets/13_vb657b.webp)
 
 #### **Filters are the type of cards and can be moved around on the worksheet by simple drag and drop**
 
@@ -189,13 +189,13 @@ In the Data pane, under Dimensions, right-click Order Date and select Show Filte
 
 In the Data pane, under Measures, drag Profit to Color on the Marks card.
 
-<center>![](assets/14_lj5crz.webp)</center>
+![](assets/14_lj5crz.webp)
 
 **It can be seen that Bookcases, Tables and even machine contribute to negative profit, i.e., loss. A powerful insight.**
 
 ### `Hands On`
 
-<center>![](assets/15_z9xuaq.webp)</center>
+![](assets/15_z9xuaq.webp)
 
 ## Key Findings
 
@@ -215,7 +215,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 
 ### `Hands On`
 
-<center>![](assets/16_ivwkuw.webp)</center>
+![](assets/16_ivwkuw.webp)
 
 # <a name="map-view"></a>4.Map View
 
@@ -235,7 +235,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 
 ### `Hands On`
 
-<center>![](assets/17_gmtnyn.webp)</center>
+![](assets/17_gmtnyn.webp)
 
 ## Getting into the details
 
@@ -257,7 +257,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
     1.  In the Data pane, drag a field and drop it directly on top of another field or right-click the field and select
     2.  Drag any additional fields into the hierarchy. Fields can also be re-ordered in the hierarchy by simply dragging them to a new position. In the current viz. we will create the following hierarchies: Location, Order, and Product.  
 
-        <center>![](assets/18_zxxiq1.webp)</center>
+        ![](assets/18_zxxiq1.webp)
 
 4.  On the Rows Shelf, click the plus-shaped icon on the `State` Field to drill-down to the `City` level.
 
@@ -271,11 +271,11 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 
 3.  Drag Postal Code of the Rows shelf. This is the final view.  
 
-    <center>![](assets/19_bym369.webp)</center>
+    ![](assets/19_bym369.webp)
 
 ### `Hands On`
 
-<center>![](assets/20_a3v4ap.webp)</center>
+![](assets/20_a3v4ap.webp)
 
 ## Key Findings
 
@@ -311,7 +311,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 
 ### `Hands On`
 
-<center>![](assets/22_epiqqg.webp)</center>
+![](assets/22_epiqqg.webp)
 
 ## Adding Interactiveness
 
@@ -326,7 +326,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 
 ### `Hands On`
 
-<center>![](assets/23_xbotwx.webp)</center>
+![](assets/23_xbotwx.webp)
 
 #### **Thus, selling machines in the North Carolina did not bring any profits to the company.**
 
@@ -347,7 +347,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 
 ### `Hands On`
 
-<center>![](assets/24_tgqrtl.webp)</center>
+![](assets/24_tgqrtl.webp)
 
 ## Making a Conclusion
 
@@ -365,7 +365,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 
 ### `Hands On`
 
-<center>![](assets/25_oz1cl6.webp)</center>
+![](assets/25_oz1cl6.webp)
 
 #### Now we have an idea about, what products were introduced to the North Carolina market when, and how they performed. Not only have we identified a way to address negative profit, but have also successfully managed to back it with data. This is the advantage of Story in Tableau.
 
@@ -403,13 +403,13 @@ After `Rserve` is successfully installed, open Tableau Desktop and follow the be
 
 1.  Go to the `Help > Settings and Preferences and select Manage External Service Connection`.
 
-    <center>![](assets/26_htxtmt.webp)</center>
+    ![](assets/26_htxtmt.webp)
 
 2.  Enter the server name as “Localhost” (or “127.0.0.1”) and a port of “6311”.
 
 3.  Click on the “Test Connection” button. You should see a successful message prompt. Click OK to close.
 
-<center>![](assets/27_nxvq7k.webp)</center>
+![](assets/27_nxvq7k.webp)
 
 #### Start using the R scripts in Tableau
 
@@ -445,7 +445,7 @@ Let’s get to work and see how we can use tableau capabilities with R.We will u
 
 ### `Hands On`
 
-<center>![](assets/28_fqwmf0.webp)</center>
+![](assets/28_fqwmf0.webp)
 
 One might wonder all the above calculations could have been done in Tableau without using R. So, why should we go through the process of downloading and configuring Rserve in Tableau and write scripts? R is a potent language because of its power to forecast, utilizing widely-used libraries that contain well-known algorithms easily. Imagine how nice it would be to make predictions for our business in Tableau, by calling a simple R script and then being able to incorporate it into Tableau's visualizations.
 
@@ -473,7 +473,7 @@ Then cd to the directory containing the downloaded tabpy server and run.
 
 The next step is to connect Tableau with TabPy. This can be done by going to `Help > Settings and Performance > Manage External Service Connection:`
 
-<center>![](assets/29_h67g6n.gif)</center>
+![](assets/29_h67g6n.gif)
 
 Test the connection. If all goes smoothly, you should be greeted with a “successfully connected” prompt.
 
@@ -503,7 +503,7 @@ We will be using the mobile reviews dataset which can be downloaded from [here](
 
 4.  Now, drag `Reviews` onto rows and `Sentiment` onto **Text and Color Marks card** and see the magic happening. We get the sentiment analysis of the review done without any hassle. Also, it gets super easy to visualize the results too. The positive reviews are in increasing order of green while the negative ones are in red.
 
-    <center>![](assets/30_csyzyp.webp)</center>
+    ![](assets/30_csyzyp.webp)
 
 The above example clearly shows the power brought about by Tableau's integration with Python. By having the Sentiment scores at our disposal, we can work with it to dig deeper into the details. For instance, As a business owner, I can filter the negative reviews and contemplate on the reasons for the same. I can also filter on the positive reviews to get an idea about the products which makes the consumers happy.
 
