@@ -79,9 +79,9 @@ The launch screen of Tableau Desktop shows the available data sources that one c
 
 ![](assets/5_ubfft7.webp)
 
-#### Connecting to the [Sample-Superstore data set](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/Data%20Visualisation%20with%20Tableau/Sample-Superstore%20.xls)
+#### Connecting to the [Sample-Superstore data set](global-superstore.xlsx)
 
-We shall be working with a sample data set names **Superstore dataset**, that comes pre-loaded with Tableau. However, we will be downloading the file from [here](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/Data%20Visualisation%20with%20Tableau/Sample-Superstore%20.xls) so that we can get an idea of connecting to an Excel data source. The data is that of a superstore. It contains information about products, sales, profits, etc. Our aim as Data Analysts is to analyze the data and find critical areas of improvement within this fictitious company.
+We shall be working with a sample data set names **Superstore dataset**, that comes pre-loaded with Tableau. However, we will be downloading the file from [here](global-superstore.xlsx) so that we can get an idea of connecting to an Excel data source. The data is that of a superstore. It contains information about products, sales, profits, etc. Our aim as Data Analysts is to analyze the data and find critical areas of improvement within this fictitious company.
 
 ### `Steps`
 
